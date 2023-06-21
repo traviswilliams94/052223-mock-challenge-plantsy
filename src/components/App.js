@@ -7,6 +7,7 @@ function App() {
   const [plants, setPlants] = useState([]);
 
   useEffect(fetchPlants, [])
+  
 
   return (
     <div className="app">

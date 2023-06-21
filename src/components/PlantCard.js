@@ -6,7 +6,7 @@ function PlantCard({plant, deletePlant}) {
   const[isDeleted, setIsDeleted] = useState(false)
 
 function handleStockClick(){
-  setIsInStock(!isInStock)
+  setIsInStock(false)
 }
 
 function handleDeleteClick(){

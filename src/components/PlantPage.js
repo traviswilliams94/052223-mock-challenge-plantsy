@@ -6,7 +6,7 @@ import Search from "./Search";
 function PlantPage({ plants, setPlants }) {
 
   const [searchState, setSearchState] = useState("");
-  const filteredPlants = plants.filter(plant => plant.name.includes(searchState))
+  const filteredPlants = plants.filter(plant => plant.name.toLocaleLowerCase().includes(searchState.toLocaleLowerCase()))
 
   function handleSearch(e){
     setSearchState(e.target.value)
@@ -18,7 +18,7 @@ function PlantPage({ plants, setPlants }) {
   }
 
   function deletePlant(id) {
-    const updatedPlants = filteredPlants.filter(plant => plant.id !== id)
+    const updatedPlants = plants.filter(plant => plant.id !== id)
     setPlants(updatedPlants)
   }
 
