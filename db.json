@@ -41,6 +41,18 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Happy Lil Guy",
+      "image": "https://img.freepik.com/free-vector/plant-emoji_78370-262.jpg?w=2000",
+      "price": "2.99",
+      "id": 8
+    },
+    {
+      "name": "Sappling",
+      "image": "https://media.istockphoto.com/id/658291850/photo/young-plant-growing-in-sunlight.jpg?s=612x612&w=0&k=20&c=ZH9gmP8dLhwNaWuVbtBz99Fkybg_B0Uanw88QXSdMnY=",
+      "price": "0.99",
+      "id": 9
     }
   ]
 }
